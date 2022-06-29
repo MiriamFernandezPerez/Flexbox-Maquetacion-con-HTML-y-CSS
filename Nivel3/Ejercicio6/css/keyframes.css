@@ -1,0 +1,86 @@
+.logo{
+    animation: movement 2s;
+    -webkit-animation: movement 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes movement{
+    20%, 50%, 80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes movement{
+    20%, 50%, 80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.menu_nav{
+    opacity: 0;
+    animation: keyframes 2s;
+    -webkit-animation: keyframes 2s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes keyframes {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes keyframes {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.rrss{
+    animation: long 2s;
+    -webkit-animation: long 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes long{
+    20%, 50%, 80% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(-30px);
+    }
+    60% {
+        transform: translateX(-15px);
+    }
+}
+
+@-webkit-keyframes long{
+    20%, 50%, 80% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(-30px);
+    }
+    60% {
+        transform: translateX(-15px);
+    }
+}
+
